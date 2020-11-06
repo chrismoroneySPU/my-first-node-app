@@ -1,19 +1,27 @@
 {
-  "name": "justin",
+  "name": "first-node-app",
   "version": "1.0.0",
+  "desription": "Chris's first-node-app from Justin",
+  "engines": {
+    "node": "12.x"
+  },
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "Chris Moroney my-first-node-app",
+  "keywords": [
+    "nodejs",
+    "heroku",
+    "mondogb"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chrismoroneySPU/my-first-node-app.git"
   },
+  "author": "",
+  "license": "ISC",
+  "description": "Chris Moroney my-first-node-app",
   "bugs": {
     "url": "https://github.com/chrismoroneySPU/my-first-node-app/issues"
   },
